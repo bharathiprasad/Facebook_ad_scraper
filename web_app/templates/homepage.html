@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>
+			Tsquared Web Application
+		</title>
+	</head>
+	<body background='2.png'>
+		<h2>
+		    <center>
+				Welcome {{user}}
+		    </center>
+		</h2>
+		<h3>
+		    <center>
+			    Choose Platform
+		    </center>
+		</h3>
+		<a href="/facebook/{{user}}">
+		    <center>
+		        <button>
+			        Facebook
+			    </button>
+		    </center>
+		</a><div style="backgroung-color: #ddff99">
+		<a href={{url_for('plots_page', user=session['username'])}}>
+		    Plots
+		</a>
+		<br>
+		<a href="/logout">
+		    Logout</div>
+		</a>
+	</body>
+</html>

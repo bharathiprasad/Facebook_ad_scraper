@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+   <body>
+      <h2 style = "text-align: center;">Registration Form</h2>
+
+    {% for message in form.username.errors %}
+        <div>{{ message }}</div>
+    {% endfor %}
+
+    {% for message in form.password.errors %}
+        <div>{{ message }}</div>
+    {% endfor %}
+
+    {% for message in form.retype_password.errors %}
+        <div>{{ message }}</div>
+    {% endfor %}
+
+    {% for message in get_flashed_messages() %}
+        <div>{{ message }}</div>
+    {% endfor %}
+
+      <form action="" method=post>
+         <fieldset>
+            <legend>Sign Up</legend>
+            {{ form.hidden_tag() }}
+
+            <div style = font-size:20px; font-weight:bold; margin-left:150px;>
+               {{ form.username.label }}<br>
+               {{ form.username }}
+               <br>
+
+               {{ form.password.label }}<br>
+               {{ form.password }}
+               <br>
+
+               {{ form.retype_password.label }}<br>
+               {{ form.retype_password }}
+               <br>
+
+               {{ form.submit }}
+            </div>
+
+         </fieldset>
+      </form>
+   </body>
+</html>

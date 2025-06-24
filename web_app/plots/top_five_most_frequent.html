@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1e034d74-6863-46ce-a9db-cf7c875174ef" data-root-id="1371"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1492">
+          {"339754a1-e3c3-4d29-bc7a-6ceedfc1e6e5":{"roots":{"references":[{"attributes":{},"id":"1392","type":"SaveTool"},{"attributes":{"below":[{"id":"1380","type":"CategoricalAxis"}],"center":[{"id":"1383","type":"Grid"},{"id":"1388","type":"Grid"}],"left":[{"id":"1384","type":"LinearAxis"}],"renderers":[{"id":"1406","type":"GlyphRenderer"}],"title":{"id":"1408","type":"Title"},"toolbar":{"id":"1395","type":"Toolbar"},"x_range":{"id":"1372","type":"FactorRange"},"x_scale":{"id":"1376","type":"CategoricalScale"},"y_range":{"id":"1374","type":"DataRange1d"},"y_scale":{"id":"1378","type":"LinearScale"}},"id":"1371","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1390","type":"WheelZoomTool"},{"attributes":{},"id":"1394","type":"HelpTool"},{"attributes":{"ticker":{"id":"1381","type":"CategoricalTicker"}},"id":"1383","type":"Grid"},{"attributes":{"callback":null,"factors":["CuriosityStream","Alibaba Cloud","Fevicol","Mega Sales","Practicum by Yandex"]},"id":"1372","type":"FactorRange"},{"attributes":{},"id":"1376","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"count"},"width":{"value":0.7},"x":{"field":"ad_title"}},"id":"1405","type":"VBar"},{"attributes":{"data_source":{"id":"1370","type":"ColumnDataSource"},"glyph":{"id":"1404","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1405","type":"VBar"},"selection_glyph":null,"view":{"id":"1407","type":"CDSView"}},"id":"1406","type":"GlyphRenderer"},{"attributes":{},"id":"1378","type":"LinearScale"},{"attributes":{"dimension":1,"ticker":{"id":"1385","type":"BasicTicker"}},"id":"1388","type":"Grid"},{"attributes":{"source":{"id":"1370","type":"ColumnDataSource"}},"id":"1407","type":"CDSView"},{"attributes":{"callback":null},"id":"1374","type":"DataRange1d"},{"attributes":{},"id":"1418","type":"UnionRenderers"},{"attributes":{},"id":"1419","type":"Selection"},{"attributes":{"text":"Top 5 in most appeared Advertisements"},"id":"1408","type":"Title"},{"attributes":{"overlay":{"id":"1417","type":"BoxAnnotation"}},"id":"1391","type":"BoxZoomTool"},{"attributes":{"fill_color":{"field":"ad_title","transform":{"id":"1402","type":"CategoricalColorMapper"}},"line_color":{"field":"ad_title","transform":{"id":"1402","type":"CategoricalColorMapper"}},"top":{"field":"count"},"width":{"value":0.7},"x":{"field":"ad_title"}},"id":"1404","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1417","type":"BoxAnnotation"},{"attributes":{"callback":null,"data":{"ad_title":["CuriosityStream","Alibaba Cloud","Fevicol","Mega Sales","Practicum by Yandex"],"count":[2,1,1,1,1],"index":[0,1,2,3,4]},"selected":{"id":"1419","type":"Selection"},"selection_policy":{"id":"1418","type":"UnionRenderers"}},"id":"1370","type":"ColumnDataSource"},{"attributes":{},"id":"1385","type":"BasicTicker"},{"attributes":{"axis_label":"Advertisement Enterprise","formatter":{"id":"1414","type":"CategoricalTickFormatter"},"ticker":{"id":"1381","type":"CategoricalTicker"}},"id":"1380","type":"CategoricalAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1389","type":"PanTool"},{"id":"1390","type":"WheelZoomTool"},{"id":"1391","type":"BoxZoomTool"},{"id":"1392","type":"SaveTool"},{"id":"1393","type":"ResetTool"},{"id":"1394","type":"HelpTool"},{"id":"1409","type":"HoverTool"}]},"id":"1395","type":"Toolbar"},{"attributes":{},"id":"1414","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1393","type":"ResetTool"},{"attributes":{},"id":"1416","type":"BasicTickFormatter"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Brand","@ad_title"]]},"id":"1409","type":"HoverTool"},{"attributes":{},"id":"1389","type":"PanTool"},{"attributes":{"factors":["CuriosityStream","Alibaba Cloud","Fevicol","Mega Sales","Practicum by Yandex"],"palette":["#000003","#550F6D","#BA3655","#F98C09","#FCFEA4"]},"id":"1402","type":"CategoricalColorMapper"},{"attributes":{},"id":"1381","type":"CategoricalTicker"},{"attributes":{"axis_label":"Frequency","formatter":{"id":"1416","type":"BasicTickFormatter"},"ticker":{"id":"1385","type":"BasicTicker"}},"id":"1384","type":"LinearAxis"}],"root_ids":["1371"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1492').textContent;
+                  var render_items = [{"docid":"339754a1-e3c3-4d29-bc7a-6ceedfc1e6e5","roots":{"1371":"1e034d74-6863-46ce-a9db-cf7c875174ef"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

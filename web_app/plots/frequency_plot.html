@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="86b663fd-4eaa-4a8c-ac82-86207df2838b" data-root-id="1494"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1615">
+          {"de9e3a58-5460-4926-92ee-f5f291b6f194":{"roots":{"references":[{"attributes":{},"id":"1513","type":"WheelZoomTool"},{"attributes":{"callback":null,"factors":["Alibaba Cloud","CuriosityStream","Fevicol","Mega Sales","Practicum by Yandex","Spark AR Creators","Udemy","Yashoda Hospitals"]},"id":"1495","type":"FactorRange"},{"attributes":{},"id":"1504","type":"CategoricalTicker"},{"attributes":{},"id":"1499","type":"CategoricalScale"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Brand","@ad_title"]]},"id":"1532","type":"HoverTool"},{"attributes":{"overlay":{"id":"1540","type":"BoxAnnotation"}},"id":"1514","type":"BoxZoomTool"},{"attributes":{"ticker":{"id":"1504","type":"CategoricalTicker"}},"id":"1506","type":"Grid"},{"attributes":{"below":[{"id":"1503","type":"CategoricalAxis"}],"center":[{"id":"1506","type":"Grid"},{"id":"1511","type":"Grid"}],"left":[{"id":"1507","type":"LinearAxis"}],"renderers":[{"id":"1529","type":"GlyphRenderer"}],"title":{"id":"1531","type":"Title"},"toolbar":{"id":"1518","type":"Toolbar"},"x_range":{"id":"1495","type":"FactorRange"},"x_scale":{"id":"1499","type":"CategoricalScale"},"y_range":{"id":"1497","type":"DataRange1d"},"y_scale":{"id":"1501","type":"LinearScale"}},"id":"1494","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1515","type":"SaveTool"},{"attributes":{},"id":"1539","type":"BasicTickFormatter"},{"attributes":{"axis_label":"Frequency","formatter":{"id":"1539","type":"BasicTickFormatter"},"ticker":{"id":"1508","type":"BasicTicker"}},"id":"1507","type":"LinearAxis"},{"attributes":{},"id":"1542","type":"Selection"},{"attributes":{"callback":null,"data":{"ad_title":["Alibaba Cloud","CuriosityStream","Fevicol","Mega Sales","Practicum by Yandex","Spark AR Creators","Udemy","Yashoda Hospitals"],"count":[1,2,1,1,1,1,1,1]},"selected":{"id":"1542","type":"Selection"},"selection_policy":{"id":"1541","type":"UnionRenderers"}},"id":"1493","type":"ColumnDataSource"},{"attributes":{},"id":"1516","type":"ResetTool"},{"attributes":{},"id":"1508","type":"BasicTicker"},{"attributes":{},"id":"1517","type":"HelpTool"},{"attributes":{},"id":"1501","type":"LinearScale"},{"attributes":{"dimension":1,"ticker":{"id":"1508","type":"BasicTicker"}},"id":"1511","type":"Grid"},{"attributes":{"callback":null},"id":"1497","type":"DataRange1d"},{"attributes":{"factors":["Alibaba Cloud","CuriosityStream","Fevicol","Mega Sales","Practicum by Yandex","Spark AR Creators","Udemy","Yashoda Hospitals"],"palette":["#000003","#1F0C47","#550F6D","#88216A","#BA3655","#E35832","#F98C09","#F8C931","#FCFEA4"]},"id":"1525","type":"CategoricalColorMapper"},{"attributes":{},"id":"1541","type":"UnionRenderers"},{"attributes":{"fill_color":{"field":"ad_title","transform":{"id":"1525","type":"CategoricalColorMapper"}},"line_color":{"field":"ad_title","transform":{"id":"1525","type":"CategoricalColorMapper"}},"top":{"field":"count"},"width":{"value":0.7},"x":{"field":"ad_title"}},"id":"1527","type":"VBar"},{"attributes":{"axis_label":"Advertisement Enterprise","formatter":{"id":"1537","type":"CategoricalTickFormatter"},"ticker":{"id":"1504","type":"CategoricalTicker"}},"id":"1503","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"count"},"width":{"value":0.7},"x":{"field":"ad_title"}},"id":"1528","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1540","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"1493","type":"ColumnDataSource"},"glyph":{"id":"1527","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1528","type":"VBar"},"selection_glyph":null,"view":{"id":"1530","type":"CDSView"}},"id":"1529","type":"GlyphRenderer"},{"attributes":{},"id":"1537","type":"CategoricalTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1512","type":"PanTool"},{"id":"1513","type":"WheelZoomTool"},{"id":"1514","type":"BoxZoomTool"},{"id":"1515","type":"SaveTool"},{"id":"1516","type":"ResetTool"},{"id":"1517","type":"HelpTool"},{"id":"1532","type":"HoverTool"}]},"id":"1518","type":"Toolbar"},{"attributes":{"source":{"id":"1493","type":"ColumnDataSource"}},"id":"1530","type":"CDSView"},{"attributes":{},"id":"1512","type":"PanTool"},{"attributes":{"text":"List of Advertisement enterprises with frequency of appearance"},"id":"1531","type":"Title"}],"root_ids":["1494"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1615').textContent;
+                  var render_items = [{"docid":"de9e3a58-5460-4926-92ee-f5f291b6f194","roots":{"1494":"86b663fd-4eaa-4a8c-ac82-86207df2838b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

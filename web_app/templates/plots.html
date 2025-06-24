@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Graphs
+        </title>
+    </head>
+    <body background="indexs.jpg">
+                 <h2>
+		    <center>
+				Choose Any Plot
+		    </center>
+		</h2>
+        <a href={{url_for('show_plot', user=session['username'], plot='frequency_plot.html')}}>Frequency Plot</a>
+        <br>
+        <a href={{url_for('show_plot', user=session['username'], plot='top_five_most_frequent.html')}}>Top Five Most Frequent</a></div>
+    </body>
+</html>
