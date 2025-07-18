@@ -43,22 +43,6 @@ A web-based interface for scraping and analyzing Facebook ad data. This project 
 5. **Access in browser**
    Visit `http://localhost:5000` in your web browser.
 
-## 🗂️ Project Structure
-
-```
-web_app/
-│
-├── static/              # CSS and static assets
-│
-├── templates/           # HTML templates
-│   └── index.html
-│
-├── app.py               # Main Flask application
-├── scraper.py           # Web scraping logic
-├── requirements.txt     # Python dependencies
-└── README.md
-```
-
 ## 🧪 Future Improvements
 
 - Export results to CSV
