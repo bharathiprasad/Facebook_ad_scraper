@@ -37,7 +37,7 @@ A web-based interface for scraping and analyzing Facebook ad data. This project 
 
 4. **Run the Flask app**
    ```bash
-   python app.py
+   python web_app_basic.py
    ```
 
 5. **Access in browser**
