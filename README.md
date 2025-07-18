@@ -15,11 +15,6 @@ A web-based interface for scraping and analyzing Facebook ad data. This project 
 - **Backend**: Flask (Python)
 - **Web Scraping**: BeautifulSoup, Requests
 
-## 📸 Screenshots
-
-> _Add a screenshot of your web UI and sample scraped results_
-
-![Web App Screenshot](path/to/screenshot.png)
 
 ## 🚀 How to Run Locally
 
